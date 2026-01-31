@@ -1,0 +1,43 @@
+#1
+T=("Python","Java","SQL","C")
+print(T)
+#2
+T1=12,
+print(T1)
+#3
+T2=("Shivani","Chaudhary","B.tech",2022)
+print(T2[::-1])
+#4
+T=("Python","Java","SQL","C")
+T2=("Shivani","Chaudhary","B.tech",2022)
+T,T2=T2,T
+print(T)
+print(T2)
+#5
+T3=(10,10,10,10)
+if T3.count(T3[0])==len(T3):
+    print(True)
+else:
+    print(False)
+#6
+t1=(100,200,300,400)
+a, b, c, d=t1
+print(a)
+print(b)
+print(c)
+print(d)
+#7
+tuple1=(1,2,3,4,5,6)
+new_tuple=tuple1[3:5]
+print(new_tuple)
+#8
+tuple1=(('a',21),('b',37),('c',11),('d',29))
+tuple1=sorted(tuple1,key=lambda x:x[1])
+print(tuple1)
+#9
+tuple1=("Python",[10,20,30],(2,4,16))
+print(tuple1[1][1])
+#10
+tuple1=(11,[22,33],44,55)
+tuple1[1][0]=222
+print(tuple1)
